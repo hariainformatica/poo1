@@ -6,9 +6,10 @@ al atributo patas
 """
 
 class animal:
-    patas = 0
+    #patas = 0 #atributo
 
-    def caminar (self):
+    def caminar (self): #método
+        self.patas = 0 #atributo
         print("caminando con", self.patas, "patas")
 
 def main():
